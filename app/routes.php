@@ -17,3 +17,5 @@ Route::get('/', function()
 });
 
 Route::resource('departamentos', 'DepartamentosController');
+
+Route::resource('municipios', 'MunicipiosController');
