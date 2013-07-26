@@ -17,6 +17,9 @@ class CreateMunicipiosTable extends Migration {
             $table->string('codmun', 2)->unique();
 			$table->string('coddep', 2);
             $table->timestamps();
+
+
+            
         });
     }
 
