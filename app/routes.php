@@ -15,7 +15,3 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
-
-Route::resource('departamentos', 'DepartamentosController');
-
-Route::resource('municipios', 'MunicipiosController');
